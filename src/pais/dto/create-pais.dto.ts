@@ -1,6 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class UnassignPetDTO {
+export class CreatePaisDto {
   @IsString()
-  userName: string;
+  pais: string;
 }
